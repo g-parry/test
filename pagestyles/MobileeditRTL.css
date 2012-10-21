@@ -1,0 +1,176 @@
+.page-Mobileedit,
+  .runner-pagewrapper .page-Mobileedit,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileedit
+{
+padding-top:10px; padding-left:10px;
+}
+.page-Mobileedit .runner-c-fields,
+  .runner-pagewrapper .page-Mobileedit .runner-c-fields,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileedit .runner-c-fields
+{
+margin-bottom:5px;
+}
+.page-Mobileedit .runner-c-fields,
+  .runner-pagewrapper .page-Mobileedit .runner-c-fields,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileedit .runner-c-fields
+{
+width:100%;
+}
+.page-Mobileedit .runner-b-editheader_mobile, .page-Mobileedit .runner-b-editheader_mobile,
+.page-Mobileedit .runner-b-editheader_mobile, .page-Mobileedit .runner-b-editheader_mobile > *,
+  .runner-pagewrapper .page-Mobileedit .runner-b-editheader_mobile, .page-Mobileedit .runner-b-editheader_mobile,
+  .runner-pagewrapper .page-Mobileedit .runner-b-editheader_mobile, .page-Mobileedit .runner-b-editheader_mobile > *,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileedit .runner-b-editheader_mobile, .page-Mobileedit .runner-b-editheader_mobile,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileedit .runner-b-editheader_mobile, .page-Mobileedit .runner-b-editheader_mobile > *
+{
+white-space: nowrap;
+}
+.page-Mobileedit .runner-b-editheader_mobile, .page-Mobileedit .runner-b-editheader_mobile,
+.page-Mobileedit .runner-b-editheader_mobile, .page-Mobileedit .runner-b-editheader_mobile > *,
+  .runner-pagewrapper .page-Mobileedit .runner-b-editheader_mobile, .page-Mobileedit .runner-b-editheader_mobile,
+  .runner-pagewrapper .page-Mobileedit .runner-b-editheader_mobile, .page-Mobileedit .runner-b-editheader_mobile > *,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileedit .runner-b-editheader_mobile, .page-Mobileedit .runner-b-editheader_mobile,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileedit .runner-b-editheader_mobile, .page-Mobileedit .runner-b-editheader_mobile > *
+{
+text-align: right;
+}
+.page-Mobileedit .runner-b-message, .page-Mobileedit .runner-b-message,
+.page-Mobileedit .runner-b-message, .page-Mobileedit .runner-b-message > *,
+  .runner-pagewrapper .page-Mobileedit .runner-b-message, .page-Mobileedit .runner-b-message,
+  .runner-pagewrapper .page-Mobileedit .runner-b-message, .page-Mobileedit .runner-b-message > *,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileedit .runner-b-message, .page-Mobileedit .runner-b-message,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileedit .runner-b-message, .page-Mobileedit .runner-b-message > *
+{
+white-space: nowrap;
+}
+.page-Mobileedit .runner-b-message, .page-Mobileedit .runner-b-message,
+.page-Mobileedit .runner-b-message, .page-Mobileedit .runner-b-message > *,
+  .runner-pagewrapper .page-Mobileedit .runner-b-message, .page-Mobileedit .runner-b-message,
+  .runner-pagewrapper .page-Mobileedit .runner-b-message, .page-Mobileedit .runner-b-message > *,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileedit .runner-b-message, .page-Mobileedit .runner-b-message,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileedit .runner-b-message, .page-Mobileedit .runner-b-message > *
+{
+text-align: right;
+}
+.page-Mobileedit .runner-b-editfields_mobile1, .page-Mobileedit .runner-b-editfields_mobile1,
+.page-Mobileedit .runner-b-editfields_mobile1, .page-Mobileedit .runner-b-editfields_mobile1 > *,
+  .runner-pagewrapper .page-Mobileedit .runner-b-editfields_mobile1, .page-Mobileedit .runner-b-editfields_mobile1,
+  .runner-pagewrapper .page-Mobileedit .runner-b-editfields_mobile1, .page-Mobileedit .runner-b-editfields_mobile1 > *,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileedit .runner-b-editfields_mobile1, .page-Mobileedit .runner-b-editfields_mobile1,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileedit .runner-b-editfields_mobile1, .page-Mobileedit .runner-b-editfields_mobile1 > *
+{
+white-space: nowrap;
+}
+.page-Mobileedit .runner-b-editfields_mobile1, .page-Mobileedit .runner-b-editfields_mobile1,
+.page-Mobileedit .runner-b-editfields_mobile1, .page-Mobileedit .runner-b-editfields_mobile1 > *,
+  .runner-pagewrapper .page-Mobileedit .runner-b-editfields_mobile1, .page-Mobileedit .runner-b-editfields_mobile1,
+  .runner-pagewrapper .page-Mobileedit .runner-b-editfields_mobile1, .page-Mobileedit .runner-b-editfields_mobile1 > *,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileedit .runner-b-editfields_mobile1, .page-Mobileedit .runner-b-editfields_mobile1,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileedit .runner-b-editfields_mobile1, .page-Mobileedit .runner-b-editfields_mobile1 > *
+{
+text-align: right;
+}
+.page-Mobileedit .runner-b-legend, .page-Mobileedit .runner-b-legend,
+.page-Mobileedit .runner-b-legend, .page-Mobileedit .runner-b-legend > *,
+  .runner-pagewrapper .page-Mobileedit .runner-b-legend, .page-Mobileedit .runner-b-legend,
+  .runner-pagewrapper .page-Mobileedit .runner-b-legend, .page-Mobileedit .runner-b-legend > *,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileedit .runner-b-legend, .page-Mobileedit .runner-b-legend,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileedit .runner-b-legend, .page-Mobileedit .runner-b-legend > *
+{
+white-space: nowrap;
+}
+.page-Mobileedit .runner-b-legend, .page-Mobileedit .runner-b-legend,
+.page-Mobileedit .runner-b-legend, .page-Mobileedit .runner-b-legend > *,
+  .runner-pagewrapper .page-Mobileedit .runner-b-legend, .page-Mobileedit .runner-b-legend,
+  .runner-pagewrapper .page-Mobileedit .runner-b-legend, .page-Mobileedit .runner-b-legend > *,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileedit .runner-b-legend, .page-Mobileedit .runner-b-legend,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileedit .runner-b-legend, .page-Mobileedit .runner-b-legend > *
+{
+text-align: right;
+}
+.page-Mobileedit .runner-b-editbuttons, .page-Mobileedit .runner-b-editbuttons,
+.page-Mobileedit .runner-b-editbuttons, .page-Mobileedit .runner-b-editbuttons > *,
+  .runner-pagewrapper .page-Mobileedit .runner-b-editbuttons, .page-Mobileedit .runner-b-editbuttons,
+  .runner-pagewrapper .page-Mobileedit .runner-b-editbuttons, .page-Mobileedit .runner-b-editbuttons > *,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileedit .runner-b-editbuttons, .page-Mobileedit .runner-b-editbuttons,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileedit .runner-b-editbuttons, .page-Mobileedit .runner-b-editbuttons > *
+{
+white-space: nowrap;
+}
+.page-Mobileedit .runner-b-editbuttons, .page-Mobileedit .runner-b-editbuttons,
+.page-Mobileedit .runner-b-editbuttons, .page-Mobileedit .runner-b-editbuttons > *,
+  .runner-pagewrapper .page-Mobileedit .runner-b-editbuttons, .page-Mobileedit .runner-b-editbuttons,
+  .runner-pagewrapper .page-Mobileedit .runner-b-editbuttons, .page-Mobileedit .runner-b-editbuttons > *,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileedit .runner-b-editbuttons, .page-Mobileedit .runner-b-editbuttons,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileedit .runner-b-editbuttons, .page-Mobileedit .runner-b-editbuttons > *
+{
+text-align: right;
+}
+.page-Mobileedit .runner-c-flylist,
+  .runner-pagewrapper .page-Mobileedit .runner-c-flylist,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileedit .runner-c-flylist
+{
+margin-bottom:5px;
+}
+.page-Mobileedit .runner-c-flylist,
+  .runner-pagewrapper .page-Mobileedit .runner-c-flylist,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileedit .runner-c-flylist
+{
+width:100%;
+}
+.page-Mobileedit .runner-b-flypanel_mobile, .page-Mobileedit .runner-b-flypanel_mobile,
+.page-Mobileedit .runner-b-flypanel_mobile, .page-Mobileedit .runner-b-flypanel_mobile > *,
+  .runner-pagewrapper .page-Mobileedit .runner-b-flypanel_mobile, .page-Mobileedit .runner-b-flypanel_mobile,
+  .runner-pagewrapper .page-Mobileedit .runner-b-flypanel_mobile, .page-Mobileedit .runner-b-flypanel_mobile > *,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileedit .runner-b-flypanel_mobile, .page-Mobileedit .runner-b-flypanel_mobile,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileedit .runner-b-flypanel_mobile, .page-Mobileedit .runner-b-flypanel_mobile > *
+{
+white-space: nowrap;
+}
+.page-Mobileedit .runner-b-flypanel_mobile, .page-Mobileedit .runner-b-flypanel_mobile,
+.page-Mobileedit .runner-b-flypanel_mobile, .page-Mobileedit .runner-b-flypanel_mobile > *,
+  .runner-pagewrapper .page-Mobileedit .runner-b-flypanel_mobile, .page-Mobileedit .runner-b-flypanel_mobile,
+  .runner-pagewrapper .page-Mobileedit .runner-b-flypanel_mobile, .page-Mobileedit .runner-b-flypanel_mobile > *,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileedit .runner-b-flypanel_mobile, .page-Mobileedit .runner-b-flypanel_mobile,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileedit .runner-b-flypanel_mobile, .page-Mobileedit .runner-b-flypanel_mobile > *
+{
+text-align: right;
+}
+.page-Mobileedit .runner-c-details,
+  .runner-pagewrapper .page-Mobileedit .runner-c-details,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileedit .runner-c-details
+{
+margin-bottom:5px;
+}
+.page-Mobileedit .runner-c-details,
+  .runner-pagewrapper .page-Mobileedit .runner-c-details,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileedit .runner-c-details
+{
+width:100%;
+}
+.page-Mobileedit .runner-b-editdetails, .page-Mobileedit .runner-b-editdetails,
+.page-Mobileedit .runner-b-editdetails, .page-Mobileedit .runner-b-editdetails > *,
+  .runner-pagewrapper .page-Mobileedit .runner-b-editdetails, .page-Mobileedit .runner-b-editdetails,
+  .runner-pagewrapper .page-Mobileedit .runner-b-editdetails, .page-Mobileedit .runner-b-editdetails > *,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileedit .runner-b-editdetails, .page-Mobileedit .runner-b-editdetails,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileedit .runner-b-editdetails, .page-Mobileedit .runner-b-editdetails > *
+{
+white-space: nowrap;
+}
+.page-Mobileedit .runner-b-editdetails, .page-Mobileedit .runner-b-editdetails,
+.page-Mobileedit .runner-b-editdetails, .page-Mobileedit .runner-b-editdetails > *,
+  .runner-pagewrapper .page-Mobileedit .runner-b-editdetails, .page-Mobileedit .runner-b-editdetails,
+  .runner-pagewrapper .page-Mobileedit .runner-b-editdetails, .page-Mobileedit .runner-b-editdetails > *,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileedit .runner-b-editdetails, .page-Mobileedit .runner-b-editdetails,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileedit .runner-b-editdetails, .page-Mobileedit .runner-b-editdetails > *
+{
+text-align: right;
+}
+body.page-Mobileedit .runner-toptable
+{
+width:93%;
+}
+body.page-Mobileedit .runner-top
+{
+padding-right: 5px;
+}

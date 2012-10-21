@@ -1,0 +1,122 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<title>{$pagetitle}</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=8" >
+		<meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
+
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		<link REL="stylesheet" href="styles/default_mobile.css" type="text/css">
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}
+		<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+		<!--[if IE]>
+			<link REL="stylesheet" href="styles/defaultIE.css" type="text/css">
+			{BEGIN IEcssFiles}
+			<link REL="stylesheet" href="{$stylepathIE}" type="text/css">
+			{END IEcssFiles}
+		<![endif]-->
+	</head>
+	
+	<body class="{$stylename}" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+				<div>
+					
+				</div>
+				<div>
+					
+
+{BEGIN container_fields}
+<div class="runner-c runner-c-fields" ><div class="runner-tbody">
+
+
+<div  class="runner-b-viewheader_mobile runner-row style2 {$brickclass_viewheader_mobile}"><div class="runner-cc">{BEGIN back_button}
+<span class="runner-btnframe">
+<span class="runner-btnleft"></span>
+<span class="runner-btnright"></span>
+<a href="#" class="runner-button" onclick="window.location.href='isha_streets_list.php?a=return'">Back to list</a>
+</span>
+{END back_button}
+Isha Streets, View record [
+ID: {$show_key1}
+]</div></div>
+
+
+
+
+<div  class="runner-b-viewfields_mobile1 runner-row style1 {$brickclass_viewfields_mobile1}"><div class="runner-cc">{BEGIN ID_fieldblock}
+<div>
+	<div class="runner-cc runner-cc1"><b>ID</b></div>
+	<div class="runner-cc runner-cc2">{$ID_value}&nbsp;</div>
+</div>	
+{END ID_fieldblock}
+{BEGIN Location_fieldblock}
+<div>
+	<div class="runner-cc runner-cc1"><b>Location</b></div>
+	<div class="runner-cc runner-cc2">{$Location_value}&nbsp;</div>
+</div>	
+{END Location_fieldblock}
+{BEGIN ACTIVE_fieldblock}
+<div>
+	<div class="runner-cc runner-cc1"><b>ACTIVE</b></div>
+	<div class="runner-cc runner-cc2">{$ACTIVE_value}&nbsp;</div>
+</div>	
+{END ACTIVE_fieldblock}
+{BEGIN contract_fieldblock}
+<div>
+	<div class="runner-cc runner-cc1"><b>Contract</b></div>
+	<div class="runner-cc runner-cc2">{$contract_value}&nbsp;</div>
+</div>	
+{END contract_fieldblock}
+{BEGIN enfcompany_fieldblock}
+<div>
+	<div class="runner-cc runner-cc1"><b>Enfcompany</b></div>
+	<div class="runner-cc runner-cc2">{$enfcompany_value}&nbsp;</div>
+</div>	
+{END enfcompany_fieldblock}
+</div></div>
+
+
+
+
+<div  class="runner-b-viewbuttons runner-row style2 {$brickclass_viewbuttons}"><div class="runner-cc">{BEGIN prev_button}
+<span class="runner-btnframe">
+<span class="runner-btnleft"></span>
+<span class="runner-btnright"></span>
+<a href="#" class="runner-button" {$prevbutton_attrs}>&lt;&lt;&lt;</a>
+</span>
+{END prev_button}
+{BEGIN back_button}
+<span class="runner-btnframe">
+<span class="runner-btnleft"></span>
+<span class="runner-btnright"></span>
+<a href="#" class="runner-button" onclick="window.location.href='isha_streets_list.php?a=return'" {$backbutton_attrs}>Back to list</a>
+</span>
+{END back_button}
+{BEGIN next_button}
+<span class="runner-btnframe">
+<span class="runner-btnleft"></span>
+<span class="runner-btnright"></span>
+<a href="#" class="runner-button" {$nextbutton_attrs}>&gt;&gt;&gt;</a>
+</span>
+{END next_button}
+</div></div>
+
+
+
+</div></div>
+{END container_fields}
+
+
+
+
+				</div>
+		{$footer}
+	{END body}
+	</body>
+</html>

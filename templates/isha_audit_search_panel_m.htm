@@ -1,0 +1,65 @@
+<div class="searchOptions bottomPanelBorder" {$srchOpt_attrs}>
+	<!-- Search panel content -->
+	<div class="srchCritTop" style="display: none;">
+		Criteria:&nbsp;
+		<input type="radio" name="srchType" {$all_checkbox}>{BEGIN all_checkbox_label}all{END all_checkbox_label}
+		&nbsp;&nbsp;&nbsp;
+		<input type="radio" name="srchType" {$any_checkbox}>{BEGIN any_checkbox_label}any{END any_checkbox_label}
+	</div>
+	
+	<div class="addOption">
+		<span class="runner-btnframe">
+		<span class="runner-btnleft"></span>
+		<span class="runner-btnright"></span>
+		<a href="#" id="showHideControlChooseMenu{$id}" class="runner-button" {$showHideCtrls_attrs}>Add field</a>
+		</span>
+		&nbsp;&nbsp;&nbsp;
+		<span class="runner-btnframe">
+		<span class="runner-btnleft"></span>
+		<span class="runner-btnright"></span>
+		<a href="#" id="showHideSearchType{$id}" class="runner-button" {$showHideCtrlsOpt_attrs}>{$showHideOpt_mess}</a>
+		</span>
+	</div>
+	
+	<!-- choose controls div -->
+	<div class="runner-panel controlChooseMenu" {$controlChooseMenuDiv_attrs}>
+		{BEGIN addSearch_id}
+			<a href="#" id="addSearchControl_id" class="addSearchControl" {$addSearchControl_id_attrs}>Id</a><br>
+		{END addSearch_id}
+		{BEGIN addSearch_datetime}
+			<a href="#" id="addSearchControl_datetime" class="addSearchControl" {$addSearchControl_datetime_attrs}>Datetime</a><br>
+		{END addSearch_datetime}
+		{BEGIN addSearch_ip}
+			<a href="#" id="addSearchControl_ip" class="addSearchControl" {$addSearchControl_ip_attrs}>Ip</a><br>
+		{END addSearch_ip}
+		{BEGIN addSearch_user}
+			<a href="#" id="addSearchControl_user" class="addSearchControl" {$addSearchControl_user_attrs}>User</a><br>
+		{END addSearch_user}
+		{BEGIN addSearch_table}
+			<a href="#" id="addSearchControl_table" class="addSearchControl" {$addSearchControl_table_attrs}>Table</a><br>
+		{END addSearch_table}
+		{BEGIN addSearch_action}
+			<a href="#" id="addSearchControl_action" class="addSearchControl" {$addSearchControl_action_attrs}>Action</a><br>
+		{END addSearch_action}
+		{BEGIN addSearch_description}
+			<a href="#" id="addSearchControl_description" class="addSearchControl" {$addSearchControl_description_attrs}>Description</a><br>
+		{END addSearch_description}
+	</div>
+	
+	<div class="controlsBlock">
+		{BEGIN searchCtrlBlock}
+		<div class="srchPanelRow" {$filterRow_attrs}>
+			<div class="srchPanelCell">{$delCtrlButt}&nbsp;{$fLabel}:&nbsp;</div>
+			<div class="srchPanelCell srchPanelCell2">{$searchtype} {$searchcontrol} {$searchcontrol1}</div>
+		</div>
+		{END searchCtrlBlock}
+	</div>
+		
+	<div class="bottomSearchButt" align="left" {$bottomSearchButt_attrs}>
+		<span class="runner-btnframe">
+		<span class="runner-btnleft"></span>
+		<span class="runner-btnright"></span>
+		<a href="#" class="runner-button" {$searchbutton_attrs}>Search</a>
+		</span>
+	</div>
+</div>

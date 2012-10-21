@@ -1,0 +1,324 @@
+.page-Mobilereport,
+  .runner-pagewrapper .page-Mobilereport,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport
+{
+padding-top:10px; padding-left:10px;
+}
+.page-Mobilereport .runner-c-menu,
+  .runner-pagewrapper .page-Mobilereport .runner-c-menu,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-c-menu
+{
+margin-bottom:5px;
+}
+.page-Mobilereport .runner-c-menu,
+  .runner-pagewrapper .page-Mobilereport .runner-c-menu,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-c-menu
+{
+width:100%;
+}
+.page-Mobilereport .runner-b-vmenu, .page-Mobilereport .runner-b-vmenu,
+.page-Mobilereport .runner-b-vmenu, .page-Mobilereport .runner-b-vmenu > *,
+  .runner-pagewrapper .page-Mobilereport .runner-b-vmenu, .page-Mobilereport .runner-b-vmenu,
+  .runner-pagewrapper .page-Mobilereport .runner-b-vmenu, .page-Mobilereport .runner-b-vmenu > *,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-b-vmenu, .page-Mobilereport .runner-b-vmenu,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-b-vmenu, .page-Mobilereport .runner-b-vmenu > *
+{
+white-space: nowrap;
+}
+.page-Mobilereport .runner-b-vmenu, .page-Mobilereport .runner-b-vmenu,
+.page-Mobilereport .runner-b-vmenu, .page-Mobilereport .runner-b-vmenu > *,
+  .runner-pagewrapper .page-Mobilereport .runner-b-vmenu, .page-Mobilereport .runner-b-vmenu,
+  .runner-pagewrapper .page-Mobilereport .runner-b-vmenu, .page-Mobilereport .runner-b-vmenu > *,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-b-vmenu, .page-Mobilereport .runner-b-vmenu,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-b-vmenu, .page-Mobilereport .runner-b-vmenu > *
+{
+text-align: left;
+}
+.page-Mobilereport .runner-b-searchpanel, .page-Mobilereport .runner-b-searchpanel,
+.page-Mobilereport .runner-b-searchpanel, .page-Mobilereport .runner-b-searchpanel > *,
+  .runner-pagewrapper .page-Mobilereport .runner-b-searchpanel, .page-Mobilereport .runner-b-searchpanel,
+  .runner-pagewrapper .page-Mobilereport .runner-b-searchpanel, .page-Mobilereport .runner-b-searchpanel > *,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-b-searchpanel, .page-Mobilereport .runner-b-searchpanel,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-b-searchpanel, .page-Mobilereport .runner-b-searchpanel > *
+{
+white-space: nowrap;
+}
+.page-Mobilereport .runner-b-searchpanel, .page-Mobilereport .runner-b-searchpanel,
+.page-Mobilereport .runner-b-searchpanel, .page-Mobilereport .runner-b-searchpanel > *,
+  .runner-pagewrapper .page-Mobilereport .runner-b-searchpanel, .page-Mobilereport .runner-b-searchpanel,
+  .runner-pagewrapper .page-Mobilereport .runner-b-searchpanel, .page-Mobilereport .runner-b-searchpanel > *,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-b-searchpanel, .page-Mobilereport .runner-b-searchpanel,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-b-searchpanel, .page-Mobilereport .runner-b-searchpanel > *
+{
+text-align: left;
+}
+.page-Mobilereport .runner-b-fulltext_mobile, .page-Mobilereport .runner-b-fulltext_mobile,
+.page-Mobilereport .runner-b-fulltext_mobile, .page-Mobilereport .runner-b-fulltext_mobile > *,
+  .runner-pagewrapper .page-Mobilereport .runner-b-fulltext_mobile, .page-Mobilereport .runner-b-fulltext_mobile,
+  .runner-pagewrapper .page-Mobilereport .runner-b-fulltext_mobile, .page-Mobilereport .runner-b-fulltext_mobile > *,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-b-fulltext_mobile, .page-Mobilereport .runner-b-fulltext_mobile,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-b-fulltext_mobile, .page-Mobilereport .runner-b-fulltext_mobile > *
+{
+white-space: nowrap;
+}
+.page-Mobilereport .runner-b-fulltext_mobile, .page-Mobilereport .runner-b-fulltext_mobile,
+.page-Mobilereport .runner-b-fulltext_mobile, .page-Mobilereport .runner-b-fulltext_mobile > *,
+  .runner-pagewrapper .page-Mobilereport .runner-b-fulltext_mobile, .page-Mobilereport .runner-b-fulltext_mobile,
+  .runner-pagewrapper .page-Mobilereport .runner-b-fulltext_mobile, .page-Mobilereport .runner-b-fulltext_mobile > *,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-b-fulltext_mobile, .page-Mobilereport .runner-b-fulltext_mobile,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-b-fulltext_mobile, .page-Mobilereport .runner-b-fulltext_mobile > *
+{
+text-align: left;
+}
+.page-Mobilereport .runner-b-backbutton, .page-Mobilereport .runner-b-backbutton,
+.page-Mobilereport .runner-b-backbutton, .page-Mobilereport .runner-b-backbutton > *,
+  .runner-pagewrapper .page-Mobilereport .runner-b-backbutton, .page-Mobilereport .runner-b-backbutton,
+  .runner-pagewrapper .page-Mobilereport .runner-b-backbutton, .page-Mobilereport .runner-b-backbutton > *,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-b-backbutton, .page-Mobilereport .runner-b-backbutton,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-b-backbutton, .page-Mobilereport .runner-b-backbutton > *
+{
+white-space: nowrap;
+}
+.page-Mobilereport .runner-b-backbutton, .page-Mobilereport .runner-b-backbutton,
+.page-Mobilereport .runner-b-backbutton, .page-Mobilereport .runner-b-backbutton > *,
+  .runner-pagewrapper .page-Mobilereport .runner-b-backbutton, .page-Mobilereport .runner-b-backbutton,
+  .runner-pagewrapper .page-Mobilereport .runner-b-backbutton, .page-Mobilereport .runner-b-backbutton > *,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-b-backbutton, .page-Mobilereport .runner-b-backbutton,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-b-backbutton, .page-Mobilereport .runner-b-backbutton > *
+{
+text-align: left;
+}
+.page-Mobilereport .runner-c-message,
+  .runner-pagewrapper .page-Mobilereport .runner-c-message,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-c-message
+{
+margin-bottom:5px;
+}
+.page-Mobilereport .runner-c-message,
+  .runner-pagewrapper .page-Mobilereport .runner-c-message,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-c-message
+{
+width:100%;
+}
+.page-Mobilereport .runner-b-message, .page-Mobilereport .runner-b-message,
+.page-Mobilereport .runner-b-message, .page-Mobilereport .runner-b-message > *,
+  .runner-pagewrapper .page-Mobilereport .runner-b-message, .page-Mobilereport .runner-b-message,
+  .runner-pagewrapper .page-Mobilereport .runner-b-message, .page-Mobilereport .runner-b-message > *,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-b-message, .page-Mobilereport .runner-b-message,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-b-message, .page-Mobilereport .runner-b-message > *
+{
+white-space: nowrap;
+}
+.page-Mobilereport .runner-b-message, .page-Mobilereport .runner-b-message,
+.page-Mobilereport .runner-b-message, .page-Mobilereport .runner-b-message > *,
+  .runner-pagewrapper .page-Mobilereport .runner-b-message, .page-Mobilereport .runner-b-message,
+  .runner-pagewrapper .page-Mobilereport .runner-b-message, .page-Mobilereport .runner-b-message > *,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-b-message, .page-Mobilereport .runner-b-message,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-b-message, .page-Mobilereport .runner-b-message > *
+{
+text-align: center;
+}
+.page-Mobilereport .runner-c-grid,
+  .runner-pagewrapper .page-Mobilereport .runner-c-grid,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-c-grid
+{
+margin-bottom:5px;
+}
+.page-Mobilereport .runner-c-grid,
+  .runner-pagewrapper .page-Mobilereport .runner-c-grid,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-c-grid
+{
+width:100%;
+}
+.page-Mobilereport .runner-b-report, .page-Mobilereport .runner-b-report,
+.page-Mobilereport .runner-b-report, .page-Mobilereport .runner-b-report > *,
+  .runner-pagewrapper .page-Mobilereport .runner-b-report, .page-Mobilereport .runner-b-report,
+  .runner-pagewrapper .page-Mobilereport .runner-b-report, .page-Mobilereport .runner-b-report > *,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-b-report, .page-Mobilereport .runner-b-report,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-b-report, .page-Mobilereport .runner-b-report > *
+{
+white-space: nowrap;
+}
+.page-Mobilereport .runner-b-report, .page-Mobilereport .runner-b-report,
+.page-Mobilereport .runner-b-report, .page-Mobilereport .runner-b-report > *,
+  .runner-pagewrapper .page-Mobilereport .runner-b-report, .page-Mobilereport .runner-b-report,
+  .runner-pagewrapper .page-Mobilereport .runner-b-report, .page-Mobilereport .runner-b-report > *,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-b-report, .page-Mobilereport .runner-b-report,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-b-report, .page-Mobilereport .runner-b-report > *
+{
+text-align: left;
+}
+.page-Mobilereport .runner-c-bottompanel,
+  .runner-pagewrapper .page-Mobilereport .runner-c-bottompanel,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-c-bottompanel
+{
+margin-bottom:5px;
+}
+.page-Mobilereport .runner-c-bottompanel,
+  .runner-pagewrapper .page-Mobilereport .runner-c-bottompanel,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-c-bottompanel
+{
+width:100%;
+}
+.page-Mobilereport .runner-b-pagination, .page-Mobilereport .runner-b-pagination,
+.page-Mobilereport .runner-b-pagination, .page-Mobilereport .runner-b-pagination > *,
+  .runner-pagewrapper .page-Mobilereport .runner-b-pagination, .page-Mobilereport .runner-b-pagination,
+  .runner-pagewrapper .page-Mobilereport .runner-b-pagination, .page-Mobilereport .runner-b-pagination > *,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-b-pagination, .page-Mobilereport .runner-b-pagination,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-b-pagination, .page-Mobilereport .runner-b-pagination > *
+{
+white-space: nowrap;
+}
+.page-Mobilereport .runner-b-pagination, .page-Mobilereport .runner-b-pagination,
+.page-Mobilereport .runner-b-pagination, .page-Mobilereport .runner-b-pagination > *,
+  .runner-pagewrapper .page-Mobilereport .runner-b-pagination, .page-Mobilereport .runner-b-pagination,
+  .runner-pagewrapper .page-Mobilereport .runner-b-pagination, .page-Mobilereport .runner-b-pagination > *,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-b-pagination, .page-Mobilereport .runner-b-pagination,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-b-pagination, .page-Mobilereport .runner-b-pagination > *
+{
+text-align: center;
+}
+.page-Mobilereport .runner-b-languages, .page-Mobilereport .runner-b-languages,
+.page-Mobilereport .runner-b-languages, .page-Mobilereport .runner-b-languages > *,
+  .runner-pagewrapper .page-Mobilereport .runner-b-languages, .page-Mobilereport .runner-b-languages,
+  .runner-pagewrapper .page-Mobilereport .runner-b-languages, .page-Mobilereport .runner-b-languages > *,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-b-languages, .page-Mobilereport .runner-b-languages,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-b-languages, .page-Mobilereport .runner-b-languages > *
+{
+white-space: nowrap;
+}
+.page-Mobilereport .runner-b-languages, .page-Mobilereport .runner-b-languages,
+.page-Mobilereport .runner-b-languages, .page-Mobilereport .runner-b-languages > *,
+  .runner-pagewrapper .page-Mobilereport .runner-b-languages, .page-Mobilereport .runner-b-languages,
+  .runner-pagewrapper .page-Mobilereport .runner-b-languages, .page-Mobilereport .runner-b-languages > *,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-b-languages, .page-Mobilereport .runner-b-languages,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-b-languages, .page-Mobilereport .runner-b-languages > *
+{
+text-align: left;
+}
+.page-Mobilereport .runner-b-loggedas_mobile, .page-Mobilereport .runner-b-loggedas_mobile,
+.page-Mobilereport .runner-b-loggedas_mobile, .page-Mobilereport .runner-b-loggedas_mobile > *,
+  .runner-pagewrapper .page-Mobilereport .runner-b-loggedas_mobile, .page-Mobilereport .runner-b-loggedas_mobile,
+  .runner-pagewrapper .page-Mobilereport .runner-b-loggedas_mobile, .page-Mobilereport .runner-b-loggedas_mobile > *,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-b-loggedas_mobile, .page-Mobilereport .runner-b-loggedas_mobile,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-b-loggedas_mobile, .page-Mobilereport .runner-b-loggedas_mobile > *
+{
+white-space: nowrap;
+}
+.page-Mobilereport .runner-b-loggedas_mobile, .page-Mobilereport .runner-b-loggedas_mobile,
+.page-Mobilereport .runner-b-loggedas_mobile, .page-Mobilereport .runner-b-loggedas_mobile > *,
+  .runner-pagewrapper .page-Mobilereport .runner-b-loggedas_mobile, .page-Mobilereport .runner-b-loggedas_mobile,
+  .runner-pagewrapper .page-Mobilereport .runner-b-loggedas_mobile, .page-Mobilereport .runner-b-loggedas_mobile > *,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-b-loggedas_mobile, .page-Mobilereport .runner-b-loggedas_mobile,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-b-loggedas_mobile, .page-Mobilereport .runner-b-loggedas_mobile > *
+{
+text-align: left;
+}
+.page-Mobilereport .runner-c-form,
+  .runner-pagewrapper .page-Mobilereport .runner-c-form,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-c-form
+{
+margin-bottom:5px;
+}
+.page-Mobilereport .runner-c-form,
+  .runner-pagewrapper .page-Mobilereport .runner-c-form,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-c-form
+{
+width:100%;
+}
+.page-Mobilereport .runner-b-reportvariable, .page-Mobilereport .runner-b-reportvariable,
+.page-Mobilereport .runner-b-reportvariable, .page-Mobilereport .runner-b-reportvariable > *,
+  .runner-pagewrapper .page-Mobilereport .runner-b-reportvariable, .page-Mobilereport .runner-b-reportvariable,
+  .runner-pagewrapper .page-Mobilereport .runner-b-reportvariable, .page-Mobilereport .runner-b-reportvariable > *,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-b-reportvariable, .page-Mobilereport .runner-b-reportvariable,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-b-reportvariable, .page-Mobilereport .runner-b-reportvariable > *
+{
+white-space: nowrap;
+}
+.page-Mobilereport .runner-b-reportvariable, .page-Mobilereport .runner-b-reportvariable,
+.page-Mobilereport .runner-b-reportvariable, .page-Mobilereport .runner-b-reportvariable > *,
+  .runner-pagewrapper .page-Mobilereport .runner-b-reportvariable, .page-Mobilereport .runner-b-reportvariable,
+  .runner-pagewrapper .page-Mobilereport .runner-b-reportvariable, .page-Mobilereport .runner-b-reportvariable > *,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-b-reportvariable, .page-Mobilereport .runner-b-reportvariable,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-b-reportvariable, .page-Mobilereport .runner-b-reportvariable > *
+{
+text-align: left;
+}
+body.page-Mobilereport .runner-center
+{
+padding-right: 5px;
+}
+.page-Mobilereport .runner-c-toppanel,
+  .runner-pagewrapper .page-Mobilereport .runner-c-toppanel,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-c-toppanel
+{
+margin-bottom:5px;
+}
+.page-Mobilereport .runner-c-toppanel,
+  .runner-pagewrapper .page-Mobilereport .runner-c-toppanel,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-c-toppanel
+{
+width:100%;
+}
+.page-Mobilereport .runner-b-vmenu_mobile, .page-Mobilereport .runner-b-vmenu_mobile,
+.page-Mobilereport .runner-b-vmenu_mobile, .page-Mobilereport .runner-b-vmenu_mobile > *,
+  .runner-pagewrapper .page-Mobilereport .runner-b-vmenu_mobile, .page-Mobilereport .runner-b-vmenu_mobile,
+  .runner-pagewrapper .page-Mobilereport .runner-b-vmenu_mobile, .page-Mobilereport .runner-b-vmenu_mobile > *,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-b-vmenu_mobile, .page-Mobilereport .runner-b-vmenu_mobile,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-b-vmenu_mobile, .page-Mobilereport .runner-b-vmenu_mobile > *
+{
+white-space: nowrap;
+}
+.page-Mobilereport .runner-b-vmenu_mobile, .page-Mobilereport .runner-b-vmenu_mobile,
+.page-Mobilereport .runner-b-vmenu_mobile, .page-Mobilereport .runner-b-vmenu_mobile > *,
+  .runner-pagewrapper .page-Mobilereport .runner-b-vmenu_mobile, .page-Mobilereport .runner-b-vmenu_mobile,
+  .runner-pagewrapper .page-Mobilereport .runner-b-vmenu_mobile, .page-Mobilereport .runner-b-vmenu_mobile > *,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-b-vmenu_mobile, .page-Mobilereport .runner-b-vmenu_mobile,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-b-vmenu_mobile, .page-Mobilereport .runner-b-vmenu_mobile > *
+{
+text-align: left;
+}
+.page-Mobilereport .runner-b-tableinfo_mobile, .page-Mobilereport .runner-b-tableinfo_mobile,
+.page-Mobilereport .runner-b-tableinfo_mobile, .page-Mobilereport .runner-b-tableinfo_mobile > *,
+  .runner-pagewrapper .page-Mobilereport .runner-b-tableinfo_mobile, .page-Mobilereport .runner-b-tableinfo_mobile,
+  .runner-pagewrapper .page-Mobilereport .runner-b-tableinfo_mobile, .page-Mobilereport .runner-b-tableinfo_mobile > *,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-b-tableinfo_mobile, .page-Mobilereport .runner-b-tableinfo_mobile,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-b-tableinfo_mobile, .page-Mobilereport .runner-b-tableinfo_mobile > *
+{
+white-space: nowrap;
+}
+.page-Mobilereport .runner-b-tableinfo_mobile, .page-Mobilereport .runner-b-tableinfo_mobile,
+.page-Mobilereport .runner-b-tableinfo_mobile, .page-Mobilereport .runner-b-tableinfo_mobile > *,
+  .runner-pagewrapper .page-Mobilereport .runner-b-tableinfo_mobile, .page-Mobilereport .runner-b-tableinfo_mobile,
+  .runner-pagewrapper .page-Mobilereport .runner-b-tableinfo_mobile, .page-Mobilereport .runner-b-tableinfo_mobile > *,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-b-tableinfo_mobile, .page-Mobilereport .runner-b-tableinfo_mobile,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-b-tableinfo_mobile, .page-Mobilereport .runner-b-tableinfo_mobile > *
+{
+text-align: left;
+}
+.page-Mobilereport .runner-b-search_mobile, .page-Mobilereport .runner-b-search_mobile,
+.page-Mobilereport .runner-b-search_mobile, .page-Mobilereport .runner-b-search_mobile > *,
+  .runner-pagewrapper .page-Mobilereport .runner-b-search_mobile, .page-Mobilereport .runner-b-search_mobile,
+  .runner-pagewrapper .page-Mobilereport .runner-b-search_mobile, .page-Mobilereport .runner-b-search_mobile > *,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-b-search_mobile, .page-Mobilereport .runner-b-search_mobile,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-b-search_mobile, .page-Mobilereport .runner-b-search_mobile > *
+{
+white-space: nowrap;
+}
+.page-Mobilereport .runner-b-search_mobile, .page-Mobilereport .runner-b-search_mobile,
+.page-Mobilereport .runner-b-search_mobile, .page-Mobilereport .runner-b-search_mobile > *,
+  .runner-pagewrapper .page-Mobilereport .runner-b-search_mobile, .page-Mobilereport .runner-b-search_mobile,
+  .runner-pagewrapper .page-Mobilereport .runner-b-search_mobile, .page-Mobilereport .runner-b-search_mobile > *,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-b-search_mobile, .page-Mobilereport .runner-b-search_mobile,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobilereport .runner-b-search_mobile, .page-Mobilereport .runner-b-search_mobile > *
+{
+text-align: left;
+}
+body.page-Mobilereport .runner-toptable
+{
+width:100%;
+}
+body.page-Mobilereport .runner-top
+{
+padding-right: 5px;
+}

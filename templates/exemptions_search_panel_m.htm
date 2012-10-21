@@ -1,0 +1,71 @@
+<div class="searchOptions bottomPanelBorder" {$srchOpt_attrs}>
+	<!-- Search panel content -->
+	<div class="srchCritTop" style="display: none;">
+		Criteria:&nbsp;
+		<input type="radio" name="srchType" {$all_checkbox}>{BEGIN all_checkbox_label}all{END all_checkbox_label}
+		&nbsp;&nbsp;&nbsp;
+		<input type="radio" name="srchType" {$any_checkbox}>{BEGIN any_checkbox_label}any{END any_checkbox_label}
+	</div>
+	
+	<div class="addOption">
+		<span class="runner-btnframe">
+		<span class="runner-btnleft"></span>
+		<span class="runner-btnright"></span>
+		<a href="#" id="showHideControlChooseMenu{$id}" class="runner-button" {$showHideCtrls_attrs}>Add field</a>
+		</span>
+		&nbsp;&nbsp;&nbsp;
+		<span class="runner-btnframe">
+		<span class="runner-btnleft"></span>
+		<span class="runner-btnright"></span>
+		<a href="#" id="showHideSearchType{$id}" class="runner-button" {$showHideCtrlsOpt_attrs}>{$showHideOpt_mess}</a>
+		</span>
+	</div>
+	
+	<!-- choose controls div -->
+	<div class="runner-panel controlChooseMenu" {$controlChooseMenuDiv_attrs}>
+		{BEGIN addSearch_ID}
+			<a href="#" id="addSearchControl_ID" class="addSearchControl" {$addSearchControl_ID_attrs}>ID</a><br>
+		{END addSearch_ID}
+		{BEGIN addSearch_Location}
+			<a href="#" id="addSearchControl_Location" class="addSearchControl" {$addSearchControl_Location_attrs}>Location</a><br>
+		{END addSearch_Location}
+		{BEGIN addSearch_VRM}
+			<a href="#" id="addSearchControl_VRM" class="addSearchControl" {$addSearchControl_VRM_attrs}>VRM</a><br>
+		{END addSearch_VRM}
+		{BEGIN addSearch_Start_Date}
+			<a href="#" id="addSearchControl_Start_Date" class="addSearchControl" {$addSearchControl_Start_Date_attrs}>Start Date</a><br>
+		{END addSearch_Start_Date}
+		{BEGIN addSearch_EndDate}
+			<a href="#" id="addSearchControl_EndDate" class="addSearchControl" {$addSearchControl_EndDate_attrs}>End Date</a><br>
+		{END addSearch_EndDate}
+		{BEGIN addSearch_Reason}
+			<a href="#" id="addSearchControl_Reason" class="addSearchControl" {$addSearchControl_Reason_attrs}>Reason</a><br>
+		{END addSearch_Reason}
+		{BEGIN addSearch_make}
+			<a href="#" id="addSearchControl_make" class="addSearchControl" {$addSearchControl_make_attrs}>Make</a><br>
+		{END addSearch_make}
+		{BEGIN addSearch_colour}
+			<a href="#" id="addSearchControl_colour" class="addSearchControl" {$addSearchControl_colour_attrs}>Colour</a><br>
+		{END addSearch_colour}
+		{BEGIN addSearch_contract}
+			<a href="#" id="addSearchControl_contract" class="addSearchControl" {$addSearchControl_contract_attrs}>Contract</a><br>
+		{END addSearch_contract}
+	</div>
+	
+	<div class="controlsBlock">
+		{BEGIN searchCtrlBlock}
+		<div class="srchPanelRow" {$filterRow_attrs}>
+			<div class="srchPanelCell">{$delCtrlButt}&nbsp;{$fLabel}:&nbsp;</div>
+			<div class="srchPanelCell srchPanelCell2">{$searchtype} {$searchcontrol} {$searchcontrol1}</div>
+		</div>
+		{END searchCtrlBlock}
+	</div>
+		
+	<div class="bottomSearchButt" align="left" {$bottomSearchButt_attrs}>
+		<span class="runner-btnframe">
+		<span class="runner-btnleft"></span>
+		<span class="runner-btnright"></span>
+		<a href="#" class="runner-button" {$searchbutton_attrs}>Search</a>
+		</span>
+	</div>
+</div>

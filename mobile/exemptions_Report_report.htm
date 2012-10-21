@@ -1,0 +1,285 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<title>{$pagetitle}</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=8" >
+		<meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
+
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		<link REL="stylesheet" href="styles/default_mobile.css" type="text/css">
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}
+		<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+		<!--[if IE]>
+			<link REL="stylesheet" href="styles/defaultIE.css" type="text/css">
+			{BEGIN IEcssFiles}
+			<link REL="stylesheet" href="{$stylepathIE}" type="text/css">
+			{END IEcssFiles}
+		<![endif]-->
+	</head>
+	
+	<body class="{$stylename}" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+				<div>
+					
+
+{BEGIN container_toppanel}
+<table class="runner-c runner-c-toppanel" cellpadding="0" >
+<tr class="{$cheaderclass_toppanel}">
+<td class="runner-cl"><img src="images/spacer.gif"></td>
+<td class="runner-cc"></td><td class="runner-cr"><img src="images/spacer.gif"></td>
+</tr>
+<tr class="runner-row style1">
+<td class="runner-cl"></td>
+<td class="runner-cc">
+<table border="0" cellpadding="0" class="runner-hc">
+<tr>
+
+{BEGIN menu_block}
+<td  class="runner-cc runner-bl runner-b-vmenu_mobile" {$brickclass_vmenu_mobile}><span><span class="runner-btnframe">
+<span class="runner-btnleft"></span>
+<span class="runner-btnright"></span>
+<a href="#menu" id="menu_button" class="runner-button" >Back to menu</a>
+</span>
+</span></td>
+{END menu_block}
+
+
+{BEGIN tableinfomobile_block}
+<td  class="runner-cc runner-bl runner-b-tableinfo_mobile" {$brickclass_tableinfo_mobile}><span><b>exemptions_Report
+<span {$details_attrs} dir="ltr">
+	({$records_found})
+</span>
+</b></span></td>
+{END tableinfomobile_block}
+
+
+{BEGIN searchformmobile_block}
+<td  class="runner-cc runner-bl runner-b-search_mobile" {$brickclass_search_mobile}><span><div id="searchform_button{$id}">
+	<span class="runner-btnframe">
+	<span class="runner-btnleft"></span>
+	<span class="runner-btnright"></span>
+	<a href="#search" id="search_mobile_button" class="runner-button-img" ><img src="images/search/search.gif"></a>
+	</span>
+{BEGIN searchform_showall_mobile}	
+	<span class="runner-btnframe" {$showAllCont_attrs}>
+	<span class="runner-btnleft"></span>
+	<span class="runner-btnright"></span>
+	<a href="#" class="runner-button" {$showallbutton_attrs}>Show all</a></span>		
+	</span>
+{END searchform_showall_mobile}
+</div>
+</span></td>
+{END searchformmobile_block}
+
+<td class="runner-cc filler"></td>
+</tr>
+</table></td>
+<td class="runner-cr"></td>
+</tr>
+
+<tr class="{$cfooterclass_toppanel}">
+<td class="runner-cl"><img src="images/spacer.gif"></td>
+<td class="runner-cc"></td><td class="runner-cr"><img src="images/spacer.gif"></td>
+</tr>
+</table>
+{END container_toppanel}
+
+
+				</div>
+				<div>
+					
+
+{BEGIN container_menu}
+<table class="runner-c runner-c-menu" cellpadding="0" >
+<tr class="{$cheaderclass_menu}">
+<td class="runner-cl"><img src="images/spacer.gif"></td>
+<td class="runner-cc"></td><td class="runner-cr"><img src="images/spacer.gif"></td>
+</tr>
+
+{BEGIN menu_block}
+{$mainmenu}
+{END menu_block}
+
+
+{BEGIN searchPanel}
+<tr  class="runner-row style1 runner-b-searchpanel {$brickclass_searchpanel}"><td class="runner-cl"></td><td class="runner-cc runner-brickcontents" ><div class="searchPanelContainer">
+{$adv_search_panel}
+</div></td><td class="runner-cr"></td></tr>{END searchPanel}
+
+
+
+<tr  class="runner-row style1 runner-b-fulltext_mobile {$brickclass_fulltext_mobile}"><td class="runner-cl"></td><td class="runner-cc runner-brickcontents" ><div class="runner-fulltext-content">
+
+</div>
+</td><td class="runner-cr"></td></tr>
+
+
+
+<tr  class="runner-row style1 runner-b-backbutton {$brickclass_backbutton}"><td class="runner-cl"></td><td class="runner-cc runner-brickcontents" ><span class="runner-btnframe">
+<span class="runner-btnleft"></span>
+<span class="runner-btnright"></span>
+<a href="#list" class="runner-button" id="backbutton">Back to list</a>
+</span>
+</td><td class="runner-cr"></td></tr>
+
+
+<tr class="{$cfooterclass_menu}">
+<td class="runner-cl"><img src="images/spacer.gif"></td>
+<td class="runner-cc"></td><td class="runner-cr"><img src="images/spacer.gif"></td>
+</tr>
+</table>
+{END container_menu}
+
+
+
+{BEGIN container_message}
+<table class="runner-c runner-c-message" cellpadding="0" >
+<tr class="{$cheaderclass_message}">
+<td class="runner-cl"><img src="images/spacer.gif"></td>
+<td class="runner-cc"></td><td class="runner-cr"><img src="images/spacer.gif"></td>
+</tr>
+<tr class="runner-row style1">
+<td class="runner-cl"></td>
+<td class="runner-cc">
+<table border="0" cellpadding="0" class="runner-hc">
+<tr>
+
+{BEGIN message_block}
+<td  class="runner-cc runner-bc runner-b-message" {$brickclass_message}><span><div class="runner-message">{$message}</div></span></td>
+{END message_block}
+
+
+</tr>
+</table></td>
+<td class="runner-cr"></td>
+</tr>
+
+<tr class="{$cfooterclass_message}">
+<td class="runner-cl"><img src="images/spacer.gif"></td>
+<td class="runner-cc"></td><td class="runner-cr"><img src="images/spacer.gif"></td>
+</tr>
+</table>
+{END container_message}
+
+
+
+{BEGIN container_grid}
+
+
+
+			<style>
+table.report {border-collapse: collapse} 
+/*table.report td {padding: 2px;border-width: 1px; border-style: solid; border-color: #cccccc;}*/
+div.page_block{clear:left;}
+td.noborder{padding-right:8px}
+td.data{padding-right:8px}
+td.pagesummary{background-color:#ffffbb;}
+td.globalsummary{background-color:#ffe0b0;}
+</style>
+{BEGIN grid_block}
+<TABLE class="runner-c runner-b-report report" CELLPADDING=0>
+<tr class="runner-toprow style1">
+<th class="runner-cl"><img src="images/spacer.gif"/></th>
+<th class="runner-cc">Location</th>
+<th class="runner-cr"><img src="images/spacer.gif"/></th>
+</tr>
+{BEGIN grid_row}
+<!-------------------------------------  data ----------------------------------------->
+{BEGIN row_data}
+<tr class="runner-row style1">
+	<td class="runner-cl"></td>
+	<td class="runner-cc">{$Location_value}</td>
+	<td class="runner-cr"></td>
+</tr>
+{END row_data}
+{END grid_row}
+<tr class="runner-bottomrow style1">
+		<td class="runner-cl"><img src="images/spacer.gif"/></td>
+		<td class="runner-cc"></td>
+		<td class="runner-cr"><img src="images/spacer.gif"/></td>
+	</tr>
+</table>
+{END grid_block}
+
+
+
+
+
+{END container_grid}
+
+
+
+{BEGIN container_bottompanel}
+<table class="runner-c runner-c-bottompanel" cellpadding="0" >
+<tr class="{$cheaderclass_bottompanel}">
+<td class="runner-cl"><img src="images/spacer.gif"></td>
+<td class="runner-cc"></td><td class="runner-cr"><img src="images/spacer.gif"></td>
+</tr>
+<tr class="runner-row style1">
+<td class="runner-cl"></td>
+<td class="runner-cc">
+<table border="0" cellpadding="0" class="runner-hc">
+<tr>
+
+{BEGIN pagination_block}
+<td  class="runner-cc runner-bc runner-b-pagination" {$brickclass_pagination}><span>{$pagination}</span></td>
+{END pagination_block}
+
+
+
+<td class="runner-cc filler"></td>
+</tr>
+</table></td>
+<td class="runner-cr"></td>
+</tr>
+
+<tr class="{$cfooterclass_bottompanel}">
+<td class="runner-cl"><img src="images/spacer.gif"></td>
+<td class="runner-cc"></td><td class="runner-cr"><img src="images/spacer.gif"></td>
+</tr>
+</table>
+{END container_bottompanel}
+
+
+
+{BEGIN container_form}
+<table class="runner-c runner-c-form" cellpadding="0" >
+<tr class="{$cheaderclass_form}">
+<td class="runner-cl"><img src="images/spacer.gif"></td>
+<td class="runner-cc"></td><td class="runner-cr"><img src="images/spacer.gif"></td>
+</tr>
+<tr class="runner-row style1">
+<td class="runner-cl"></td>
+<td class="runner-cc">
+<table border="0" cellpadding="0" class="runner-hc">
+<tr>
+
+
+<td  class="runner-cc runner-bl runner-b-reportvariable" {$brickclass_reportvariable}><span>{$report_filename}</span></td>
+
+
+<td class="runner-cc filler"></td>
+</tr>
+</table></td>
+<td class="runner-cr"></td>
+</tr>
+
+<tr class="{$cfooterclass_form}">
+<td class="runner-cl"><img src="images/spacer.gif"></td>
+<td class="runner-cc"></td><td class="runner-cr"><img src="images/spacer.gif"></td>
+</tr>
+</table>
+{END container_form}
+
+
+				</div>
+		{$footer}
+	{END body}
+	</body>
+</html>

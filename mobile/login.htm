@@ -1,0 +1,110 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<title>{$pagetitle}</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=8" >
+		<meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
+
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		<link REL="stylesheet" href="styles/default_mobile.css" type="text/css">
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}
+		<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+		<!--[if IE]>
+			<link REL="stylesheet" href="styles/defaultIE.css" type="text/css">
+			{BEGIN IEcssFiles}
+			<link REL="stylesheet" href="{$stylepathIE}" type="text/css">
+			{END IEcssFiles}
+		<![endif]-->
+	</head>
+	
+	<body class="{$stylename}" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+				<div>
+					
+
+{BEGIN container_fields}
+<table class="runner-c runner-c-fields" cellpadding="0" >
+<tr class="{$cheaderclass_fields}">
+<td class="runner-cl"><img src="images/spacer.gif"></td>
+<td class="runner-cc"></td><td class="runner-cc"></td><td class="runner-cr"><img src="images/spacer.gif"></td>
+</tr>
+
+
+<tr  class="runner-row style2 runner-b-loginheader {$brickclass_loginheader}"><td class="runner-cl"></td><td class="runner-cc runner-brickcontents" colspan=2>Login</td><td class="runner-cr"></td></tr>
+
+
+{BEGIN message_block}
+<tr  class="runner-row style1 runner-b-message {$brickclass_message}"><td class="runner-cl"></td><td class="runner-cc runner-brickcontents" colspan=2><div class="runner-message">{$message}</div></td><td class="runner-cr"></td></tr>{END message_block}
+
+
+
+		<tr class="runner-row style1 runner-b-loginfields_mobile"><td class="runner-cl"></td>
+		<td class="runner-cc runner-cc1">
+			{BEGIN username_label}Username:{END username_label}
+		</td>
+		<td class="runner-cr"></td></tr>
+		<tr class="runner-row style1 runner-b-loginfields_mobile"><td class="runner-cl"></td>
+		<td class="runner-cc runner-cc2">
+			<input type="text" name="username" {$username_attrs}>
+		</td>
+		<td class="runner-cr"></td></tr>
+		<tr class="runner-row style1 runner-b-loginfields_mobile"><td class="runner-cl"></td>
+		<td class="runner-cc runner-cc1">
+			{BEGIN password_label}Password:{END password_label}
+		</td>
+		<td class="runner-cr"></td></tr>
+		<tr class="runner-row style1 runner-b-loginfields_mobile"><td class="runner-cl"></td>
+		<td class="runner-cc runner-cc2">
+			<input type="password" name="password" {$password_attrs}>
+		</td>
+		<td class="runner-cr"></td></tr>
+				<tr class="runner-row style1 runner-b-loginfields_mobile"><td class="runner-cl"></td>
+		<td class="runner-cc runner-cc1">
+			<input type="checkbox" {$rememberbox_attrs}>
+			<span>{BEGIN remember_password_label}Remember Password{END remember_password_label}</span>
+		</td>
+		<td class="runner-cr"></td></tr>
+
+								
+
+
+{BEGIN guestlink_block}
+<tr  class="runner-row style1 runner-b-mesguest {$brickclass_mesguest}"><td class="runner-cl"></td><td class="runner-cc runner-brickcontents" colspan=2><a {$guestlink_attrs} >Login as Guest</a>
+</td><td class="runner-cr"></td></tr>{END guestlink_block}
+
+
+
+<tr  class="runner-row style1 runner-b-mesregforgot {$brickclass_mesregforgot}"><td class="runner-cl"></td><td class="runner-cc runner-brickcontents" colspan=2></td><td class="runner-cr"></td></tr>
+
+
+
+<tr  class="runner-row style2 runner-b-loginbuttons {$brickclass_loginbuttons}"><td class="runner-cl"></td><td class="runner-cc runner-brickcontents" colspan=2><span class="runner-btnframe">
+<span class="runner-btnleft"></span>
+<span class="runner-btnright"></span>
+<a href="#" class="runner-button" {$loginlink_attrs}>Submit</a>
+</span>
+</td><td class="runner-cr"></td></tr>
+
+
+<tr class="{$cfooterclass_fields}">
+<td class="runner-cl"><img src="images/spacer.gif"></td>
+<td class="runner-cc"></td><td class="runner-cc"></td><td class="runner-cr"><img src="images/spacer.gif"></td>
+</tr>
+</table>
+{END container_fields}
+
+
+				</div>
+				<div>
+					
+				</div>
+		{$footer}
+	{END body}
+	</body>
+</html>

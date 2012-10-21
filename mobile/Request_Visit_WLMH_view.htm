@@ -1,0 +1,134 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<title>{$pagetitle}</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=8" >
+		<meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
+
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		<link REL="stylesheet" href="styles/default_mobile.css" type="text/css">
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}
+		<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+		<!--[if IE]>
+			<link REL="stylesheet" href="styles/defaultIE.css" type="text/css">
+			{BEGIN IEcssFiles}
+			<link REL="stylesheet" href="{$stylepathIE}" type="text/css">
+			{END IEcssFiles}
+		<![endif]-->
+	</head>
+	
+	<body class="{$stylename}" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+				<div>
+					
+				</div>
+				<div>
+					
+
+{BEGIN container_fields}
+<div class="runner-c runner-c-fields" ><div class="runner-tbody">
+
+
+<div  class="runner-b-viewheader_mobile runner-row style2 {$brickclass_viewheader_mobile}"><div class="runner-cc">{BEGIN back_button}
+<span class="runner-btnframe">
+<span class="runner-btnleft"></span>
+<span class="runner-btnright"></span>
+<a href="#" class="runner-button" onclick="window.location.href='Request_Visit_WLMH_list.php?a=return'">Back to list</a>
+</span>
+{END back_button}
+Request Visit WLMH, View record [
+ID: {$show_key1}
+]</div></div>
+
+
+
+
+<div  class="runner-b-viewfields_mobile1 runner-row style1 {$brickclass_viewfields_mobile1}"><div class="runner-cc">{BEGIN ID_fieldblock}
+<div>
+	<div class="runner-cc runner-cc1"><b>ID</b></div>
+	<div class="runner-cc runner-cc2">{$ID_value}&nbsp;</div>
+</div>	
+{END ID_fieldblock}
+{BEGIN location_fieldblock}
+<div>
+	<div class="runner-cc runner-cc1"><b>Location</b></div>
+	<div class="runner-cc runner-cc2">{$location_value}&nbsp;</div>
+</div>	
+{END location_fieldblock}
+{BEGIN VRM_fieldblock}
+<div>
+	<div class="runner-cc runner-cc1"><b>VRM</b></div>
+	<div class="runner-cc runner-cc2">{$VRM_value}&nbsp;</div>
+</div>	
+{END VRM_fieldblock}
+{BEGIN make_fieldblock}
+<div>
+	<div class="runner-cc runner-cc1"><b>Make</b></div>
+	<div class="runner-cc runner-cc2">{$make_value}&nbsp;</div>
+</div>	
+{END make_fieldblock}
+{BEGIN colour_fieldblock}
+<div>
+	<div class="runner-cc runner-cc1"><b>Colour</b></div>
+	<div class="runner-cc runner-cc2">{$colour_value}&nbsp;</div>
+</div>	
+{END colour_fieldblock}
+{BEGIN notes_fieldblock}
+<div>
+	<div class="runner-cc runner-cc1"><b>Notes</b></div>
+	<div class="runner-cc runner-cc2">{$notes_value}&nbsp;</div>
+</div>	
+{END notes_fieldblock}
+{BEGIN date_fieldblock}
+<div>
+	<div class="runner-cc runner-cc1"><b>Date</b></div>
+	<div class="runner-cc runner-cc2">{$date_value}&nbsp;</div>
+</div>	
+{END date_fieldblock}
+</div></div>
+
+
+
+
+<div  class="runner-b-viewbuttons runner-row style2 {$brickclass_viewbuttons}"><div class="runner-cc">{BEGIN prev_button}
+<span class="runner-btnframe">
+<span class="runner-btnleft"></span>
+<span class="runner-btnright"></span>
+<a href="#" class="runner-button" {$prevbutton_attrs}>&lt;&lt;&lt;</a>
+</span>
+{END prev_button}
+{BEGIN back_button}
+<span class="runner-btnframe">
+<span class="runner-btnleft"></span>
+<span class="runner-btnright"></span>
+<a href="#" class="runner-button" onclick="window.location.href='Request_Visit_WLMH_list.php?a=return'" {$backbutton_attrs}>Back to list</a>
+</span>
+{END back_button}
+{BEGIN next_button}
+<span class="runner-btnframe">
+<span class="runner-btnleft"></span>
+<span class="runner-btnright"></span>
+<a href="#" class="runner-button" {$nextbutton_attrs}>&gt;&gt;&gt;</a>
+</span>
+{END next_button}
+</div></div>
+
+
+
+</div></div>
+{END container_fields}
+
+
+
+
+				</div>
+		{$footer}
+	{END body}
+	</body>
+</html>

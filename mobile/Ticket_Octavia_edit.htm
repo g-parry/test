@@ -1,0 +1,169 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<title>{$pagetitle}</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=8" >
+		<meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
+
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		<link REL="stylesheet" href="styles/default_mobile.css" type="text/css">
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}
+		<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+		<!--[if IE]>
+			<link REL="stylesheet" href="styles/defaultIE.css" type="text/css">
+			{BEGIN IEcssFiles}
+			<link REL="stylesheet" href="{$stylepathIE}" type="text/css">
+			{END IEcssFiles}
+		<![endif]-->
+	</head>
+	
+	<body class="{$stylename}" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+				<div>
+					
+
+{BEGIN container_fields}
+<div class="runner-c runner-c-fields" ><div class="runner-tbody">
+
+
+<div  class="runner-b-editheader_mobile runner-row style2 {$brickclass_editheader_mobile}"><div class="runner-cc">{BEGIN back_button}
+<span class="runner-btnframe">
+<span class="runner-btnleft"></span>
+<span class="runner-btnright"></span>
+<a href="#" class="runner-button" onclick="window.location.href='Ticket_Octavia_list.php?a=return'">Back to list</a>
+</span>
+{END back_button}
+Ticket Octavia, Edit record [
+ID: {$show_key1}
+]</div></div>
+
+
+
+{BEGIN message_block}
+<div  class="runner-b-message runner-row style1 {$brickclass_message}"><div class="runner-cc"><div class="runner-message">{$message}</div></div></div>
+{END message_block}
+
+
+
+<div  class="runner-b-editfields_mobile1 runner-row style1 {$brickclass_editfields_mobile1}"><div class="runner-cc">{BEGIN location_fieldblock}
+<div>
+	<div class="runner-cc runner-cc1"><b>{BEGIN location_label}Location{END location_label}</b></div>
+	<div class="runner-cc runner-cc2">{$location_editcontrol}&nbsp;</div>
+</div>			
+{END location_fieldblock}
+{BEGIN VRM_fieldblock}
+<div>
+	<div class="runner-cc runner-cc1"><b>{BEGIN VRM_label}VRM{END VRM_label}</b></div>
+	<div class="runner-cc runner-cc2">{$VRM_editcontrol}&nbsp;</div>
+</div>			
+{END VRM_fieldblock}
+{BEGIN make_fieldblock}
+<div>
+	<div class="runner-cc runner-cc1"><b>{BEGIN make_label}Make{END make_label}</b></div>
+	<div class="runner-cc runner-cc2">{$make_editcontrol}&nbsp;</div>
+</div>			
+{END make_fieldblock}
+{BEGIN colour_fieldblock}
+<div>
+	<div class="runner-cc runner-cc1"><b>{BEGIN colour_label}Colour{END colour_label}</b></div>
+	<div class="runner-cc runner-cc2">{$colour_editcontrol}&nbsp;</div>
+</div>			
+{END colour_fieldblock}
+{BEGIN notes_fieldblock}
+<div>
+	<div class="runner-cc runner-cc1"><b>{BEGIN notes_label}Notes{END notes_label}</b></div>
+	<div class="runner-cc runner-cc2">{$notes_editcontrol}&nbsp;</div>
+</div>			
+{END notes_fieldblock}
+{BEGIN date_fieldblock}
+<div>
+	<div class="runner-cc runner-cc1"><b>{BEGIN date_label}Date{END date_label}</b></div>
+	<div class="runner-cc runner-cc2">{$date_editcontrol}&nbsp;</div>
+</div>			
+{END date_fieldblock}
+</div></div>
+
+
+
+{BEGIN legend}
+<div  class="runner-b-legend runner-row style1 {$brickclass_legend}"><div class="runner-cc"><span id="required_block{$id}">
+<img src="images/icon_required.gif" alt="bullet"> - Required field
+</span>
+</div></div>
+{END legend}
+
+
+
+<div  class="runner-b-editbuttons runner-row style2 {$brickclass_editbuttons}"><div class="runner-cc">{BEGIN save_button}
+<span class="runner-btnframe">
+<span class="runner-btnleft"></span>
+<span class="runner-btnright"></span>
+<a href="#" class="runner-button" {$savebutton_attrs}>Save</a>
+</span>
+{END save_button}
+{BEGIN reset_button}
+<span class="runner-btnframe">
+<span class="runner-btnleft"></span>
+<span class="runner-btnright"></span>
+<a href="#" class="runner-button" {$resetbutton_attrs}>Reset</a>
+</span>
+{END reset_button}
+{BEGIN prev_button}
+<span class="runner-btnframe">
+<span class="runner-btnleft"></span>
+<span class="runner-btnright"></span>
+<a href="#" class="runner-button" {$prevbutton_attrs}>&nbsp;<<<&nbsp;</a>
+</span>
+{END prev_button}
+{BEGIN back_button}
+<span class="runner-btnframe">
+<span class="runner-btnleft"></span>
+<span class="runner-btnright"></span>
+<a href="#" class="runner-button" {$backbutton_attrs}>Back to list</a>
+</span>
+{END back_button}
+{BEGIN next_button}
+<span class="runner-btnframe">
+<span class="runner-btnleft"></span>
+<span class="runner-btnright"></span>
+<a href="#" class="runner-button" {$nextbutton_attrs}>&nbsp;>>>&nbsp;</a>
+</span>
+{END next_button}
+</div></div>
+
+
+
+</div></div>
+{END container_fields}
+
+
+
+{BEGIN container_flylist}
+<div class="runner-c runner-c-flylist" ><div class="runner-tbody">
+
+
+<div  class="runner-b-flypanel_mobile runner-row style2 {$brickclass_flypanel_mobile}"><div class="runner-cc">
+</div></div>
+
+
+
+</div></div>
+{END container_flylist}
+
+
+
+
+				</div>
+				<div>
+					
+				</div>
+		{$footer}
+	{END body}
+	</body>
+</html>

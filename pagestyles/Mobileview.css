@@ -1,0 +1,110 @@
+.page-Mobileview,
+  .runner-pagewrapper .page-Mobileview,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileview
+{
+padding-top:10px; padding-left:10px;
+}
+.page-Mobileview .runner-c-fields,
+  .runner-pagewrapper .page-Mobileview .runner-c-fields,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileview .runner-c-fields
+{
+margin-bottom:5px;
+}
+.page-Mobileview .runner-c-fields,
+  .runner-pagewrapper .page-Mobileview .runner-c-fields,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileview .runner-c-fields
+{
+width:100%;
+}
+.page-Mobileview .runner-b-viewheader_mobile, .page-Mobileview .runner-b-viewheader_mobile,
+.page-Mobileview .runner-b-viewheader_mobile, .page-Mobileview .runner-b-viewheader_mobile > *,
+  .runner-pagewrapper .page-Mobileview .runner-b-viewheader_mobile, .page-Mobileview .runner-b-viewheader_mobile,
+  .runner-pagewrapper .page-Mobileview .runner-b-viewheader_mobile, .page-Mobileview .runner-b-viewheader_mobile > *,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileview .runner-b-viewheader_mobile, .page-Mobileview .runner-b-viewheader_mobile,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileview .runner-b-viewheader_mobile, .page-Mobileview .runner-b-viewheader_mobile > *
+{
+white-space: nowrap;
+}
+.page-Mobileview .runner-b-viewheader_mobile, .page-Mobileview .runner-b-viewheader_mobile,
+.page-Mobileview .runner-b-viewheader_mobile, .page-Mobileview .runner-b-viewheader_mobile > *,
+  .runner-pagewrapper .page-Mobileview .runner-b-viewheader_mobile, .page-Mobileview .runner-b-viewheader_mobile,
+  .runner-pagewrapper .page-Mobileview .runner-b-viewheader_mobile, .page-Mobileview .runner-b-viewheader_mobile > *,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileview .runner-b-viewheader_mobile, .page-Mobileview .runner-b-viewheader_mobile,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileview .runner-b-viewheader_mobile, .page-Mobileview .runner-b-viewheader_mobile > *
+{
+text-align: left;
+}
+.page-Mobileview .runner-b-viewfields_mobile1, .page-Mobileview .runner-b-viewfields_mobile1,
+.page-Mobileview .runner-b-viewfields_mobile1, .page-Mobileview .runner-b-viewfields_mobile1 > *,
+  .runner-pagewrapper .page-Mobileview .runner-b-viewfields_mobile1, .page-Mobileview .runner-b-viewfields_mobile1,
+  .runner-pagewrapper .page-Mobileview .runner-b-viewfields_mobile1, .page-Mobileview .runner-b-viewfields_mobile1 > *,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileview .runner-b-viewfields_mobile1, .page-Mobileview .runner-b-viewfields_mobile1,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileview .runner-b-viewfields_mobile1, .page-Mobileview .runner-b-viewfields_mobile1 > *
+{
+white-space: normal;
+}
+.page-Mobileview .runner-b-viewfields_mobile1, .page-Mobileview .runner-b-viewfields_mobile1,
+.page-Mobileview .runner-b-viewfields_mobile1, .page-Mobileview .runner-b-viewfields_mobile1 > *,
+  .runner-pagewrapper .page-Mobileview .runner-b-viewfields_mobile1, .page-Mobileview .runner-b-viewfields_mobile1,
+  .runner-pagewrapper .page-Mobileview .runner-b-viewfields_mobile1, .page-Mobileview .runner-b-viewfields_mobile1 > *,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileview .runner-b-viewfields_mobile1, .page-Mobileview .runner-b-viewfields_mobile1,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileview .runner-b-viewfields_mobile1, .page-Mobileview .runner-b-viewfields_mobile1 > *
+{
+text-align: left;
+}
+.page-Mobileview .runner-b-viewbuttons, .page-Mobileview .runner-b-viewbuttons,
+.page-Mobileview .runner-b-viewbuttons, .page-Mobileview .runner-b-viewbuttons > *,
+  .runner-pagewrapper .page-Mobileview .runner-b-viewbuttons, .page-Mobileview .runner-b-viewbuttons,
+  .runner-pagewrapper .page-Mobileview .runner-b-viewbuttons, .page-Mobileview .runner-b-viewbuttons > *,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileview .runner-b-viewbuttons, .page-Mobileview .runner-b-viewbuttons,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileview .runner-b-viewbuttons, .page-Mobileview .runner-b-viewbuttons > *
+{
+white-space: nowrap;
+}
+.page-Mobileview .runner-b-viewbuttons, .page-Mobileview .runner-b-viewbuttons,
+.page-Mobileview .runner-b-viewbuttons, .page-Mobileview .runner-b-viewbuttons > *,
+  .runner-pagewrapper .page-Mobileview .runner-b-viewbuttons, .page-Mobileview .runner-b-viewbuttons,
+  .runner-pagewrapper .page-Mobileview .runner-b-viewbuttons, .page-Mobileview .runner-b-viewbuttons > *,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileview .runner-b-viewbuttons, .page-Mobileview .runner-b-viewbuttons,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileview .runner-b-viewbuttons, .page-Mobileview .runner-b-viewbuttons > *
+{
+text-align: left;
+}
+.page-Mobileview .runner-c-details,
+  .runner-pagewrapper .page-Mobileview .runner-c-details,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileview .runner-c-details
+{
+margin-bottom:5px;
+}
+.page-Mobileview .runner-c-details,
+  .runner-pagewrapper .page-Mobileview .runner-c-details,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileview .runner-c-details
+{
+width:100%;
+}
+.page-Mobileview .runner-b-viewdetails, .page-Mobileview .runner-b-viewdetails,
+.page-Mobileview .runner-b-viewdetails, .page-Mobileview .runner-b-viewdetails > *,
+  .runner-pagewrapper .page-Mobileview .runner-b-viewdetails, .page-Mobileview .runner-b-viewdetails,
+  .runner-pagewrapper .page-Mobileview .runner-b-viewdetails, .page-Mobileview .runner-b-viewdetails > *,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileview .runner-b-viewdetails, .page-Mobileview .runner-b-viewdetails,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileview .runner-b-viewdetails, .page-Mobileview .runner-b-viewdetails > *
+{
+white-space: nowrap;
+}
+.page-Mobileview .runner-b-viewdetails, .page-Mobileview .runner-b-viewdetails,
+.page-Mobileview .runner-b-viewdetails, .page-Mobileview .runner-b-viewdetails > *,
+  .runner-pagewrapper .page-Mobileview .runner-b-viewdetails, .page-Mobileview .runner-b-viewdetails,
+  .runner-pagewrapper .page-Mobileview .runner-b-viewdetails, .page-Mobileview .runner-b-viewdetails > *,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileview .runner-b-viewdetails, .page-Mobileview .runner-b-viewdetails,
+  .runner-pagewrapper .runner-pagewrapper .page-Mobileview .runner-b-viewdetails, .page-Mobileview .runner-b-viewdetails > *
+{
+text-align: left;
+}
+body.page-Mobileview .runner-center
+{
+width:93%;
+}
+body.page-Mobileview .runner-center
+{
+padding-right: 5px;
+}

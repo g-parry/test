@@ -1,0 +1,232 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<title>{$pagetitle}</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=7">
+		<meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}
+		<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+		<!--[if IE]>
+			<link REL="stylesheet" href="styles/defaultIE.css" type="text/css">
+			{BEGIN IEcssFiles}
+			<link REL="stylesheet" href="{$stylepathIE}" type="text/css">
+			{END IEcssFiles}
+		<![endif]-->
+	</head>
+	
+	<body class="{$stylename}" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+		<table   cellpadding="0" class="runner-toptable">
+			<tr class="runner-header">
+				<td class="runner-top" colspan=3>
+					
+
+
+
+
+				</td>
+			</tr>
+			<tr class="runner-body">
+				
+				<td class="runner-left {$blockclass_left}" >
+					
+				</td>	
+				
+				<td class="runner-center {$blockclass_center}">
+					
+
+{BEGIN container_grid}
+
+
+{BEGIN grid_block}
+{BEGIN page}
+<h1>ISHA Exemptions</h1>
+<span>
+{BEGIN page_number}
+Page {$pageno} of {$maxpages} 
+{END page_number}
+</span>
+
+	<div class="runner-s-grid">	
+	<table class="runner-c runner-c-grid" cellpadding="0">
+		<thead>
+		{BEGIN grid_header}
+		<tr class="runner-toprow style1">
+			<td class="runner-cl"><img src="images/spacer.gif"></td>
+			{BEGIN record_header}
+					{BEGIN Location_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Location_fieldheader}
+	<b>Location</b>
+	{END Location_fieldheader}
+</th>
+{END Location_fieldheadercolumn}
+	{BEGIN VRM_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN VRM_fieldheader}
+	<b>VRM</b>
+	{END VRM_fieldheader}
+</th>
+{END VRM_fieldheadercolumn}
+	{BEGIN make_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN make_fieldheader}
+	<b>Make</b>
+	{END make_fieldheader}
+</th>
+{END make_fieldheadercolumn}
+	{BEGIN Start_Date_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Start_Date_fieldheader}
+	<b>Start Date</b>
+	{END Start_Date_fieldheader}
+</th>
+{END Start_Date_fieldheadercolumn}
+	{BEGIN colour_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN colour_fieldheader}
+	<b>Colour</b>
+	{END colour_fieldheader}
+</th>
+{END colour_fieldheadercolumn}
+	{BEGIN EndDate_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN EndDate_fieldheader}
+	<b>End Date</b>
+	{END EndDate_fieldheader}
+</th>
+{END EndDate_fieldheadercolumn}
+	{BEGIN Reason_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Reason_fieldheader}
+	<b>Reason</b>
+	{END Reason_fieldheader}
+</th>
+{END Reason_fieldheadercolumn}
+		
+			{END record_header}
+			<td class="runner-cr"><img src="images/spacer.gif"></td>
+			{BEGIN endrecordheader_block}
+			<td class="runner-cs">&nbsp;</td>
+			{END endrecordheader_block}
+		</tr>
+	{END grid_header}
+		</thead>
+		<tbody>	
+		{BEGIN grid_row}
+	<tr class="runner-row style1" {$rowattrs} {$rowstyle} {$rowstyle}>
+		<td class="runner-cl"></td>
+		{BEGIN grid_record}
+				{BEGIN Location_fieldcolumn}
+<td  class="runner-cc {$Location_class}" {$Location_style}>
+	{$Location_value}
+</td>
+{END Location_fieldcolumn}
+	{BEGIN VRM_fieldcolumn}
+<td  class="runner-cc {$VRM_class}" {$VRM_style}>
+	{$VRM_value}
+</td>
+{END VRM_fieldcolumn}
+	{BEGIN make_fieldcolumn}
+<td  class="runner-cc {$make_class}" {$make_style}>
+	{$make_value}
+</td>
+{END make_fieldcolumn}
+	{BEGIN Start_Date_fieldcolumn}
+<td  class="runner-cc {$Start_Date_class}" {$Start_Date_style}>
+	{$Start_Date_value}
+</td>
+{END Start_Date_fieldcolumn}
+	{BEGIN colour_fieldcolumn}
+<td  class="runner-cc {$colour_class}" {$colour_style}>
+	{$colour_value}
+</td>
+{END colour_fieldcolumn}
+	{BEGIN EndDate_fieldcolumn}
+<td  class="runner-cc {$EndDate_class}" {$EndDate_style}>
+	{$EndDate_value}
+</td>
+{END EndDate_fieldcolumn}
+	{BEGIN Reason_fieldcolumn}
+<td  class="runner-cc {$Reason_class}" {$Reason_style}>
+	{$Reason_value}
+</td>
+{END Reason_fieldcolumn}
+
+		{END grid_record}
+		<td class="runner-cr"></td>
+		{BEGIN endrecord_block}
+		<td class="runner-cs">&nbsp;</td>
+		{END endrecord_block}
+	</tr>
+{END grid_row}
+										
+								<tr class="runner-bottomrow style1">
+									<td class="runner-cl"><img src="images/spacer.gif"></td>
+									{BEGIN record_footer}
+									{BEGIN Location_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Location_fieldfootercolumn}
+{BEGIN VRM_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END VRM_fieldfootercolumn}
+{BEGIN make_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END make_fieldfootercolumn}
+{BEGIN Start_Date_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Start_Date_fieldfootercolumn}
+{BEGIN colour_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END colour_fieldfootercolumn}
+{BEGIN EndDate_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END EndDate_fieldfootercolumn}
+{BEGIN Reason_fieldfootercolumn}
+<td class="runner-cc runner-clast"></td>
+{END Reason_fieldfootercolumn}
+
+									{END record_footer}
+									<td class="runner-cr"><img src="images/spacer.gif"></td>
+									{BEGIN endrecordtotals_block}
+									<td class="runner-cs"></td>
+									{END endrecordtotals_block}
+								</tr>
+
+		</tbody>
+	</table>
+</div>	
+{END page}
+
+{END grid_block}
+
+
+
+{END container_grid}
+
+
+				</td>	
+
+				<td class="runner-right {$blockclass_right}">
+					
+				</td>	
+			</tr>
+			<tr class="runner-footer">
+				<td class="runner-bottom" colspan=3>
+					<!--%%bottom%%-->
+				</td>
+			</tr>
+		</table>
+		{$footer}
+	{END body}
+	</body>
+</html>
